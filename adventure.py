@@ -1,14 +1,14 @@
-player_name = input("What is your name? > ")
+player_name = input("Tell me your name, adventurer. > ")
 
 #print("Your name is " + player_name + "?")
-print("Your name is {}? Ah, yes. I remember you now. You're our newest {}.".format(player_name, "adventurer"))
+print("Your name is {}? Yes, yes. Now I remember. You're our newest {}.".format(player_name, "adventurer"))
 
 
-player_class = input("Eh...Forgive a forgetful old man like me. What is your role again...? It's hard to keep track with all the new blood cycling through the door these days. > ")
+player_class = input("I hope you have it in your to forgive a forgetful old man like myself. What is your role again...? It's hard to keep track with all the new blood cycling through the door these days. > ")
 
 if (player_class == 'Warrior'):
     print("Pah!") 
-    print("Another Warrior? Didn't stand out from the rest of the knight-trainees in the Academy? That's why you're here in this hellhole.")
+    print("Another Warrior? Didn't stand out from the rest of the knight-trainees in the Academy? That's why you're here in this hellhole with us instead.")
 elif (player_class == 'Mage'):
     print("A mage? You must not be very good. The Studium must have rejected your application if you've found yourself here.")
 else:
